@@ -20,4 +20,6 @@ The CFC assumes it's placed in the /lib/linkscraper in your webroot.
     
         scraper = new lib.linkscraper.LinkScraper("http://www.youtube.com/watch?v=1D6V2VZhCSA");
         parsed = scraper.fetch();
+        
+        writeDump(var='#parsed#',abort=true);
     </cfscript>
