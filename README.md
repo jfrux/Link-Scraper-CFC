@@ -6,12 +6,13 @@ Returns back a clean struct containing all of the parsed information.
 
 Compatibility
 -------
-Requires: 
-*   Railo 3.2+ or ColdFusion 9
+Requires:
+
+* Railo 3.2+ or ColdFusion 9
 
 Depends on:
-*   JavaLoader CFC (included)
-*   Jsoup Library (it's included CFC download) (http://jsoup.org)
+* JavaLoader CFC (included)
+* Jsoup Library (it's included CFC download) (http://jsoup.org)
 
 USAGE / EXAMPLE
 -------
