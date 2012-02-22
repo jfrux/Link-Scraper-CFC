@@ -19,4 +19,7 @@ The CFC assumes it's placed in the /lib/linkscraper in your webroot.
     IMPORT lib.linkscraper.LinkScraper;
     
     var scraper = new lib.linkscraper.LinkScraper("http://www.youtube.com/watch?v=1D6V2VZhCSA");
+    
+    
+    <cfset parsed = scraper.fetch() />
     </cfscript>
