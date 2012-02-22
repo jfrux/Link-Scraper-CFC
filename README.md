@@ -15,8 +15,8 @@ USAGE / EXAMPLE
 -------
 The CFC assumes it's placed in the /lib/linkscraper in your webroot.
 
-`<cfscript>
-IMPORT lib.linkscraper.LinkScraper;
+`<cfscript>`
+`IMPORT lib.linkscraper.LinkScraper;`
 
-var scraper = new lib.linkscraper.LinkScraper("http://www.youtube.com/watch?v=1D6V2VZhCSA");
-</cfscript>`
+`var scraper = new lib.linkscraper.LinkScraper("http://www.youtube.com/watch?v=1D6V2VZhCSA");`
+`</cfscript>`
